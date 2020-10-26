@@ -1,0 +1,152 @@
+.article-list {
+  color: #313437;
+}
+
+.article-list p {
+  color: #7d8285;
+}
+
+.article-list h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: #fff;
+}
+
+@media (max-width:767px) {
+  .article-list h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.article-list .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.article-list .intro p {
+  margin-bottom: 0;
+}
+
+.article-list .articles {
+  padding-bottom: 40px;
+}
+
+.article-list .item {
+  padding-top: 50px;
+  min-height: 425px;
+  text-align: center;
+}
+
+.article-list .item .name {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 20px;
+  color: #9D9D9D;
+}
+
+.article-list .item .description {
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.article-list .item .action {
+  font-size: 24px;
+  width: 24px;
+  margin: 22px auto 0;
+  line-height: 1;
+  display: block;
+  color: #fff;
+  opacity: 0.85;
+  transition: opacity 0.2s;
+  text-decoration: none;
+}
+
+.article-list .item .action:hover {
+  opacity: 1;
+}
+
+#map {
+  font-family: monospace;
+  font-size: x-large;
+  color: #fff;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+
+.cursor {
+}
+
+.cursor {
+  animation: 1s blink step-end infinite;
+  font-weight: 500;
+}
+
+@keyframes blink {
+  from, to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+#allposts {
+  color: #7d8285;
+  font-size: xx-large;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.text {
+  color: #fff;
+  padding-left: 50px;
+}
+
+#div1 {
+  height: 100px;
+}
+
+.box-container.greyple {
+  height: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#head {
+  text-align: left;
+  font-family: Calibri;
+  font-size: 60px;
+}
+
+#p {
+  font-size: 25px;
+  font-family: Calibri;
+}
+
+#fact {
+  font-size: 30px;
+  color: #fff;
+}
+
+.av {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+#blog-img1 {
+  height: 200px;
+  width: 300px;
+}
+
+#blog-img2 {
+  height: 150px;
+}
+
